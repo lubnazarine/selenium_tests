@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S0HgFokg/KcYPIJOGU3Dnj4zEOhzZhzXKVVCjouX5pZkBVVvjT1IqSJY7dyP0jAuWeZ+KqfjvIszNZnpkrIdKg==",
+  "dgSpecHash": "W60U8nGjhA4ZjsF4Mp17eZ/mnQWeblwcGKY6cWRV8UC05XIFakwERu1wtAO6Xs3x8z22Tar6OGxf8eUfq2NIDA==",
   "success": true,
   "projectFilePath": "/Users/riyaz/selenium_csharp/selenium_tests/selenium_tests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "/Users/riyaz/.nuget/packages/allure.nunit/2.11.0/allure.nunit.2.11.0.nupkg.sha512",
     "/Users/riyaz/.nuget/packages/aspectinjector/2.8.1/aspectinjector.2.8.1.nupkg.sha512",
     "/Users/riyaz/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
+    "/Users/riyaz/.nuget/packages/dotnetseleniumextras.pageobjects/3.11.0/dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "/Users/riyaz/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.14.1/dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
     "/Users/riyaz/.nuget/packages/extentreports.core/1.0.3/extentreports.core.1.0.3.nupkg.sha512",
     "/Users/riyaz/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/Users/riyaz/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

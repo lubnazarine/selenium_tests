@@ -25,6 +25,7 @@ public class BusinessValueCalculatorPage:BaseClass
     public void VerifyTextInBVCSection()
     {
         //Verifying Text of BVC Section
+
         string expectedHeading = "Tell us about your organization";
         IWebElement actualHeading = driver.FindElement(By.XPath("//*[@id=\"app_user_form\"]/div[1]/div[1]/div[1]/div/div[1]/label"));
         Assert.That(actualHeading.Text.Contains(expectedHeading));
