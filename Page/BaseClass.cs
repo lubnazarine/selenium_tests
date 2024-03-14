@@ -11,6 +11,8 @@ public class BaseClass
     public IWebDriver driver;
     public void BrowserSetUp()
     {
+        ChromeOptions option = new ChromeOptions();
+        option.AddArguments("--headless");
         driver = new ChromeDriver();
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
