@@ -12,6 +12,7 @@ public class BaseClass
     public void BrowserSetUp()
     {
         ChromeOptions option = new ChromeOptions();
+        option.AddArguments("--headless");
         option.AddArguments("--remote-debugging-pipe");
         driver = new ChromeDriver();
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
