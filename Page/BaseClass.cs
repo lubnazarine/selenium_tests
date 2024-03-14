@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
 
 
 namespace selenium_tests;
@@ -20,6 +21,7 @@ public class BaseClass
         driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60);
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         driver.Navigate().GoToUrl(url);
+        Thread.Sleep(5000);
         IWebElement cookieClose = driver.FindElement(By.XPath("//*[@id=\"cookiescript_close\"]"));
         cookieClose.Click();
         PageDown();
