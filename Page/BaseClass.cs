@@ -18,6 +18,7 @@ public class BaseClass
         options.AddArguments("--disable-gpu"); // applicable to windows os only
         options.AddArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.AddArguments("--no-sandbox"); // Bypass OS security model
+        options.AddArguments("--headless");
         driver = new ChromeDriver(options);
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
