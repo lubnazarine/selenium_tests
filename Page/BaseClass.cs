@@ -13,7 +13,7 @@ public class BaseClass
     public void BrowserSetUp()
     {
         ChromeOptions options = new ChromeOptions();
-        //options.AddArguments("--headless");
+        options.AddArguments("--headless");
         driver = new ChromeDriver(options);
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
