@@ -55,7 +55,6 @@ public class BusinessValueCalculatorTest:BusinessValueCalculatorPage
     public void UncheckITVisibilityCheckboxIfItIsChecked()
     {
         UncheckITVisibilityCheckbox();
-        Thread.Sleep(3000);
     }
 
     [TearDown]

@@ -74,13 +74,12 @@ public class BusinessValueCalculatorPage:BaseClass
 
     public void UncheckITVisibilityCheckbox()
     {
-        IWebElement iTVisibilityCheckbox = driver.FindElement(By.XPath("//*[@id=\"app_user_form\"]/div[1]/div[1]/div[1]/div/div[8]/span"));
-        IWebElement iTVisibilityCheckboxAttribute = driver.FindElement(By.XPath("//*[@id=\"app_user_form\"]/div[1]/div[1]/div[1]/div/div[8]/span"));
-        string valueAttribute = iTVisibilityCheckboxAttribute.GetAttribute("value");
-        //string uncheckedValueAttribute = "0";
-        if (valueAttribute == "1")
+        IWebElement iTVisibilityCheckbox = driver.FindElement(By.XPath("//*[@id=\"ITVisibility-2u92k\"]"));
+        string valueAttribute = iTVisibilityCheckbox.GetAttribute("checked");
+        if (valueAttribute == "true")
             iTVisibilityCheckbox.Click();
-        //Assert.That(valueAttribute.Contains(uncheckedValueAttribute));
+            string newValueAttribute = iTVisibilityCheckbox.GetAttribute("checked");
+            Assert.That(newValueAttribute!=valueAttribute);
     }
 
 }

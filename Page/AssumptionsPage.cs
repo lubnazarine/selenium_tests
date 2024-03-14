@@ -28,7 +28,6 @@ public class AssumptionsPage:BaseClass
 
     public void ClickOnSaveAssumptions()
     {
-        ScrollDownTo();
         IWebElement saveAssumptionsButton = driver.FindElement(By.XPath("//*[@id=\"exampleModal\"]/div/div/div[2]/div[24]/button[2]"));
         saveAssumptionsButton.Click();
     }
