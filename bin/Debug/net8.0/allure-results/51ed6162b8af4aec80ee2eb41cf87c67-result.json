@@ -1,0 +1,63 @@
+{
+  "uuid": "629e673f-9e71-4af1-a531-4f069bc91a27",
+  "historyId": "986dbfcf8d54babaeaba933289bcc025",
+  "testCaseId": "2265f14d1c2e74683491ef76bff75ec6",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.EnterHQ(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "EnterHQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    }
+  ],
+  "links": [],
+  "name": "EnterHQ(\"France\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "EnterHQ(\"France\")"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "6be895fc-7295-4bf5-a588-16cb3d95bf17-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "hq",
+      "value": "\"France\"",
+      "excluded": false
+    }
+  ],
+  "start": 1710412481529,
+  "stop": 1710412488780
+}

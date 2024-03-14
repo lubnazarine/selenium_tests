@@ -1,0 +1,12 @@
+{
+  "uuid": "52ffe916-e71a-4821-9b16-563bdcb23718",
+  "name": "selenium_tests.BusinessValueCalculatorTest.AssertTextInVROI",
+  "children": [
+    "46b0345f-e359-4311-b937-08e14c0b4cf9"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710357117001,
+  "stop": 1710357134451
+}
