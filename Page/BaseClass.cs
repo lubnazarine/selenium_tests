@@ -24,9 +24,14 @@ public class BaseClass
         driver.Navigate().GoToUrl(url);
 
         VerifyBusinessValueCalculatorPageIsLaunched();
-        IWebElement cookieClose = driver.FindElement(By.XPath("//*[@id=\"cookiescript_close\"]"));
-        cookieClose.Click();
+        CloseCookieAlert();
         PageDown();
+    }
+
+    public void CloseCookieAlert()
+    {
+        IWebElement cookieReject = driver.FindElement(By.XPath("//*[@id=\"cookiescript_reject\"]"));
+        cookieReject.Click();
     }
 
     public void VerifyBusinessValueCalculatorPageIsLaunched()
