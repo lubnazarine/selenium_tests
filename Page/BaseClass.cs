@@ -24,7 +24,7 @@ public class BaseClass
         driver.Navigate().GoToUrl(url);
 
         VerifyBusinessValueCalculatorPageIsLaunched();
-        CloseCookieAlert();
+        //CloseCookieAlert();
         PageDown();
     }
 
