@@ -1,9 +1,7 @@
-﻿using System.Security.Authentication.ExtendedProtection;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support.UI;
 
 
 namespace selenium_tests;
@@ -31,7 +29,6 @@ public class BaseClass
 
     public void RejectCookieAlert()
     {
-        Thread.Sleep(5000);
         IWebElement cookieReject = driver.FindElement(By.Id("cookiescript_reject"));
         cookieReject.Click();
     }
@@ -57,9 +54,6 @@ public class BaseClass
         action.SendKeys(Keys.PageDown);
         action.Build().Perform();
 
-        // IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
-        // IWebElement numberOfYears = Driver.FindElement(By.XPath("//*[@id=\"Number_of_Years\"]"));
-        // js.ExecuteScript("arguments[0].scrollIntoView(true);", numberOfYears);
     }
 
 }
