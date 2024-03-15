@@ -14,14 +14,6 @@ public class BusinessValueCalculatorPage:BaseClass
     {
         BrowserSetUp();
     }
-
-    public void VerifyBusinessValueCalculatorPageIsLaunched()
-    {
-        string actualTitle = driver.Title;
-        string expectedTitle = "Technology ROI Calculator";
-        Assert.That(actualTitle, Is.EqualTo(expectedTitle));
-        
-    }
     public void VerifyTextInBVCSection()
     {
         //Verifying Text of BVC Section

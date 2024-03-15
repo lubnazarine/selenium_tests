@@ -1,4 +1,5 @@
 ﻿using System.Security.Authentication.ExtendedProtection;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -21,9 +22,19 @@ public class BaseClass
         driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60);
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         driver.Navigate().GoToUrl(url);
+
+        VerifyBusinessValueCalculatorPageIsLaunched();
         IWebElement cookieClose = driver.FindElement(By.XPath("//*[@id=\"cookiescript_close\"]"));
         cookieClose.Click();
         PageDown();
+    }
+
+    public void VerifyBusinessValueCalculatorPageIsLaunched()
+    {
+        string actualTitle = driver.Title;
+        string expectedTitle = "Technology ROI Calculator";
+        Assert.That(actualTitle, Is.EqualTo(expectedTitle));
+        
     }
     public void CloseBrowser()
     {
