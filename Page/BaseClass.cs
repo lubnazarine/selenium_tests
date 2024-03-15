@@ -15,6 +15,7 @@ public class BaseClass
     {
         ChromeOptions options = new ChromeOptions();
         options.AddArguments("--headless");
+        options.AddArguments("--no-sandbox");
         driver = new ChromeDriver(options);
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
@@ -26,6 +27,7 @@ public class BaseClass
         VerifyBusinessValueCalculatorPageIsLaunched();
         RejectCookieAlert();
         PageDown();
+
     }
 
     public void RejectCookieAlert()
