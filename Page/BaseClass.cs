@@ -24,11 +24,11 @@ public class BaseClass
         driver.Navigate().GoToUrl(url);
 
         VerifyBusinessValueCalculatorPageIsLaunched();
-        CloseCookieAlert();
+        RejectCookieAlert();
         PageDown();
     }
 
-    public void CloseCookieAlert()
+    public void RejectCookieAlert()
     {
         IWebElement cookieReject = driver.FindElement(By.Id("cookiescript_reject"));
         cookieReject.Click();
@@ -39,6 +39,7 @@ public class BaseClass
         string actualTitle = driver.Title;
         string expectedTitle = "Technology ROI Calculator";
         Assert.That(actualTitle, Is.EqualTo(expectedTitle));
+        Console.WriteLine("******** inside title assertion ************");
         
     }
     public void CloseBrowser()
