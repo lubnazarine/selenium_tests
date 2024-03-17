@@ -18,7 +18,7 @@ public class BaseClass
         ChromeOptions options = new ChromeOptions();
         options.AddArguments("--headless");
         options.AddArguments("--window-size=1024,768");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
         driver.Manage().Window.Maximize();
