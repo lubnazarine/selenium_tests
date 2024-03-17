@@ -15,11 +15,20 @@ public class BaseClass
     public void BrowserSetUp()
     {
         ChromeOptions options = new ChromeOptions();
-        options.AddArguments("--headless=new");
+        
         options.AddArguments("--window-size=1024,768");
+        options.AddArguments("--disable-extensions");
+        options.AddArguments("--proxy-server='direct://'");
+        options.AddArguments("--proxy-bypass-list=*");
+        options.AddArguments("--start-maximized");
+        options.AddArguments("--headless=new");
+        options.AddArguments("--disable-gpu");
+        options.AddArguments("--disable-dev-shm-usage");
+        options.AddArguments("--no-sandbox");
         options.AddArgument("--ignore-certificate-errors");
         options.AddArgument("--allow-running-insecure-content");
         options.AddArgument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36");
+        
         driver = new ChromeDriver(options);
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 

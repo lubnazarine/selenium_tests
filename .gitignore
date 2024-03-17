@@ -1,3 +1,5 @@
 bin/Debug/net8.0/allure-results
 bin/Debug/net8.0/allure-report
 allure-report
+.mono/registry/CurrentUser/software/microsoft/csdevkit/v1/pids/*/values.xml
+.mono/registry/CurrentUser/software/microsoft/csdevkit/v1/pids/**/values.xml
