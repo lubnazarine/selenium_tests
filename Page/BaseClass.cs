@@ -18,6 +18,8 @@ public class BaseClass
         ChromeOptions options = new ChromeOptions();
         options.AddArguments("--headless");
         options.AddArguments("--window-size=1024,768");
+        options.AddArgument("--ignore-certificate-errors");
+        options.AddArgument("--allow-running-insecure-content");
         driver = new ChromeDriver(options);
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
