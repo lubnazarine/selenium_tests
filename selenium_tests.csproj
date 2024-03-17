@@ -18,4 +18,9 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="122.0.6261.9400" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Allure-Report/" />
+    <Folder Include="Allure-Results/" />
+  </ItemGroup>
+
 </Project>

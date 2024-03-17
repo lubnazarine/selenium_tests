@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using Allure.Net.Commons;
+using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -9,11 +11,14 @@ namespace selenium_tests;
 public class BaseClass
 {
     public IWebDriver driver;
+
     public void BrowserSetUp()
     {
+
         ChromeOptions options = new ChromeOptions();
         options.AddArguments("--headless");
-        driver = new ChromeDriver(options);
+        //driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
 
         driver.Manage().Window.Maximize();
@@ -25,6 +30,11 @@ public class BaseClass
         RejectCookieAlert();
         PageDown();
 
+    }
+
+    public void CleanUpAllureReports()
+    {
+        AllureLifecycle.Instance.CleanupResultDirectory(); // clears up previous allure files
     }
 
     public void RejectCookieAlert()
@@ -43,7 +53,17 @@ public class BaseClass
     }
     public void CloseBrowser()
     {
+        TakeScreenshotUponFailure();
         driver.Close();
+    }
+
+    public void TakeScreenshotUponFailure()
+    {
+        if (TestContext.CurrentContext.Result.Outcome != ResultState.Success)
+        {
+            byte[] content = ((ITakesScreenshot)driver).GetScreenshot().AsByteArray;
+            AllureApi.AddAttachment("Failed Screenshot", "image/png",content);
+        }
     }
     public void PageDown()
     {
