@@ -46,7 +46,7 @@ jobs:
         git rm -rf .  
 
   report:
-    needs: build
+    needs: test
   
     runs-on: ubuntu-latest
   
