@@ -21,7 +21,7 @@ public class BaseClass
         options.AddArguments("--proxy-server='direct://'");
         options.AddArguments("--proxy-bypass-list=*");
         options.AddArguments("--start-maximized");
-        //options.AddArguments("--headless=new");
+        options.AddArguments("--headless=new");
         options.AddArguments("--disable-gpu");
         options.AddArguments("--disable-dev-shm-usage");
         options.AddArguments("--no-sandbox");
