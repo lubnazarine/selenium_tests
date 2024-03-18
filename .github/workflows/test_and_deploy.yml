@@ -32,14 +32,6 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
       continue-on-error: true
-
-    - name: Upload Allure Results
-      uses: actions/upload-artifact@v4.0.0
-      with:
-        name: allure-results
-        path: .\bin\Debug\net8.0\allure-results
-        if-no-files-found: error
-        retention-days: 20
     
     - name: Clean up gh-pages branch (optional)
       run: |
