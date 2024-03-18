@@ -24,13 +24,13 @@ jobs:
                     7.0.x
 
             - name: Restore NuGet packages
-              run: dotnet restore --packages .packages ${{ env.SOLUTION_FILE }}
+              run: dotnet restore
 
             - name: Build solution
-              run: dotnet build --no-restore --configuration ${{ env.BUILD_CONFIGURATION }} ${{ env.SOLUTION_FILE }}
+              run: dotnet build --no-restore
 
             - name: Test solution
-              run: dotnet test --no-build --configuration ${{ env.BUILD_CONFIGURATION }} ${{ env.SOLUTION_FILE }}
+              run: dotnet test 
               continue-on-error: true
 
             - name: Get Allure history
