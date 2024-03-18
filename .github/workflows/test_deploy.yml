@@ -1,5 +1,5 @@
 
-name: Allure Report
+name: NUnit Tests and Deploy Allure Reports
 
 on:
   push:
