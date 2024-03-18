@@ -1,0 +1,70 @@
+{
+  "uuid": "7ee84d99-5105-45e4-ba8c-e89338040e0a",
+  "historyId": "ddc6caedf1c00bbfb0b1196979fa811f",
+  "testCaseId": "75af6d383e699fff608cd3c93fede82c",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.ClickOnModifyAssumptions()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ClickOnModifyAssumptions"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    },
+    {
+      "name": "suite",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "epic",
+      "value": "Flexera - Business Value Calculator"
+    }
+  ],
+  "links": [],
+  "name": "ClickOnModifyAssumptions",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ClickOnModifyAssumptions"
+  },
+  "stage": "finished",
+  "description": "Click on the Modify Assumptions button\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "2265941b-8b25-4ca9-80b8-ea45c88f257b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710767502404,
+  "stop": 1710767516665
+}

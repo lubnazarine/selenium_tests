@@ -1,0 +1,12 @@
+{
+  "uuid": "e46baf7d-6cb8-446b-b523-de98430b50bd",
+  "name": "selenium_tests.BusinessValueCalculatorTest.ClickOnModifyAssumptions",
+  "children": [
+    "7ee84d99-5105-45e4-ba8c-e89338040e0a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710767502404,
+  "stop": 1710767516668
+}

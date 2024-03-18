@@ -1,0 +1,12 @@
+{
+  "uuid": "8c484e72-a906-4e5f-be0e-4326afa79c84",
+  "name": "selenium_tests.BusinessValueCalculatorTest.UncheckITVisibilityCheckboxIfItIsChecked",
+  "children": [
+    "eb95eb01-d944-4d71-b662-299f34c00346"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710767540817,
+  "stop": 1710767553275
+}

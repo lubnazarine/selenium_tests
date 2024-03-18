@@ -1,0 +1,70 @@
+{
+  "uuid": "eb95eb01-d944-4d71-b662-299f34c00346",
+  "historyId": "6c0b9d00cde1071960fd1d79aa7f57ca",
+  "testCaseId": "b175d2e652582d382ef9069bfb481705",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.UncheckITVisibilityCheckboxIfItIsChecked()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UncheckITVisibilityCheckboxIfItIsChecked"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    },
+    {
+      "name": "suite",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "epic",
+      "value": "Flexera - Business Value Calculator"
+    }
+  ],
+  "links": [],
+  "name": "UncheckITVisibilityCheckboxIfItIsChecked",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "UncheckITVisibilityCheckboxIfItIsChecked"
+  },
+  "stage": "finished",
+  "description": "Uncheck the checkbox - IT Visibility if it is already checked \n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "5e333ff6-517d-480a-acfc-aa0e14f95896-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710767540817,
+  "stop": 1710767553273
+}

@@ -1,0 +1,70 @@
+{
+  "uuid": "4e5d86e9-e7ce-4f23-af9f-49c7af641ac8",
+  "historyId": "2e626120680ecd76a82f8fc04bbc6a29",
+  "testCaseId": "9a4fa1ab71f6257a1ad745939fae0ca1",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.AssertTextInVROI()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AssertTextInVROI"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    },
+    {
+      "name": "suite",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "epic",
+      "value": "Flexera - Business Value Calculator"
+    }
+  ],
+  "links": [],
+  "name": "AssertTextInVROI",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AssertTextInVROI"
+  },
+  "stage": "finished",
+  "description": "Verify the text in the Business Value Section\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "b5d48c9e-e2a0-4ef8-aa08-0cad5256b09e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710767481503,
+  "stop": 1710767502315
+}

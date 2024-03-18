@@ -1,0 +1,70 @@
+{
+  "uuid": "83a435ff-9a87-4ec1-bd42-07b9f2f3ceb8",
+  "historyId": "d716c4594e134700cc9ee2635f9199f1",
+  "testCaseId": "12421410735544e62e380e3997e8c3c3",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.VerifyPageTitle()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyPageTitle"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    },
+    {
+      "name": "suite",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "epic",
+      "value": "Flexera - Business Value Calculator"
+    }
+  ],
+  "links": [],
+  "name": "VerifyPageTitle",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyPageTitle"
+  },
+  "stage": "finished",
+  "description": "Verify the page title after the page is launched\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "8d1a0d10-645d-453f-88f0-47694757c760-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1710767553284,
+  "stop": 1710767570753
+}
