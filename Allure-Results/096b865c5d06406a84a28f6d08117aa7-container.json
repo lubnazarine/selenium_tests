@@ -1,0 +1,12 @@
+{
+  "uuid": "4943d416-d9fa-4782-a34d-0298bc9a9055",
+  "name": "selenium_tests.BusinessValueCalculatorTest.EnterHQ(\"France\")",
+  "children": [
+    "6c07fc1e-7d81-4e41-a91c-20d4660e5073"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710930155181,
+  "stop": 1710930167753
+}

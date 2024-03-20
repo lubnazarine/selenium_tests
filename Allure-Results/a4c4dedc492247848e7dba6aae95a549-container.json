@@ -1,0 +1,17 @@
+{
+  "uuid": "6e5f9fbd-f085-46c2-91f7-edfa3a55bfab",
+  "name": "selenium_tests.BusinessValueCalculatorTest",
+  "children": [
+    "3887b25f-421b-467f-8b94-c8aa167a600c",
+    "26fb9cfe-d466-4c75-8691-4d94ce637270",
+    "16da3692-598a-425d-9721-673906e03c96",
+    "6c07fc1e-7d81-4e41-a91c-20d4660e5073",
+    "c8f13e0d-b80a-4ee4-86a1-1e9bd4342c9d",
+    "40518dca-8811-4267-ad92-13b23574098a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710930115225,
+  "stop": 1710930190372
+}

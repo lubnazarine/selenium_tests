@@ -1,0 +1,12 @@
+{
+  "uuid": "9cd3ab00-7bb2-4998-875d-cbcf982a5e58",
+  "name": "selenium_tests.BusinessValueCalculatorTest.EnterAnalysisYears(\"3 years\")",
+  "children": [
+    "16da3692-598a-425d-9721-673906e03c96"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1710930143918,
+  "stop": 1710930155137
+}

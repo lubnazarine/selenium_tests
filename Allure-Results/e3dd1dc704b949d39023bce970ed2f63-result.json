@@ -1,0 +1,76 @@
+{
+  "uuid": "16da3692-598a-425d-9721-673906e03c96",
+  "historyId": "aa4c1a741dba23f5e776830f0f57f997",
+  "testCaseId": "7987a32e2a3209080dc38fe135024661",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.EnterAnalysisYears(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "EnterAnalysisYears"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    },
+    {
+      "name": "suite",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "epic",
+      "value": "Flexera - Business Value Calculator"
+    }
+  ],
+  "links": [],
+  "name": "EnterAnalysisYears(\"3 years\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "EnterAnalysisYears(\"3 years\")"
+  },
+  "stage": "finished",
+  "description": "Select 3 years from the Analysis Years drop down list\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "a7ad472b-ec03-43f3-ac15-26af38e55211-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "years",
+      "value": "\"3 years\"",
+      "excluded": false
+    }
+  ],
+  "start": 1710930143918,
+  "stop": 1710930155133
+}

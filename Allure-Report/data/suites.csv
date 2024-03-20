@@ -1,0 +1,13 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 20 11:22:35 CET 2024","Wed Mar 20 11:22:47 CET 2024","12570","","Business Value Calculator","","BusinessValueCalculatorTest","EnterHQ","EnterHQ(""France"")","Select France from the Organisation Headquarters drop down list
+"
+"passed","Wed Mar 20 11:21:55 CET 2024","Wed Mar 20 11:22:11 CET 2024","15969","","Business Value Calculator","","BusinessValueCalculatorTest","AssertTextInVROI","AssertTextInVROI","Verify the text in the Business Value Section
+"
+"passed","Wed Mar 20 11:22:59 CET 2024","Wed Mar 20 11:23:10 CET 2024","10773","","Business Value Calculator","","BusinessValueCalculatorTest","VerifyPageTitle","VerifyPageTitle","Verify the page title after the page is launched
+"
+"passed","Wed Mar 20 11:22:11 CET 2024","Wed Mar 20 11:22:23 CET 2024","12595","","Business Value Calculator","","BusinessValueCalculatorTest","ClickOnModifyAssumptions","ClickOnModifyAssumptions","Click on the Modify Assumptions button
+"
+"passed","Wed Mar 20 11:22:23 CET 2024","Wed Mar 20 11:22:35 CET 2024","11215","","Business Value Calculator","","BusinessValueCalculatorTest","EnterAnalysisYears","EnterAnalysisYears(""3 years"")","Select 3 years from the Analysis Years drop down list
+"
+"failed","Wed Mar 20 11:22:47 CET 2024","Wed Mar 20 11:22:59 CET 2024","11798","","Business Value Calculator","","BusinessValueCalculatorTest","UncheckITVisibilityCheckboxIfItIsChecked","UncheckITVisibilityCheckboxIfItIsChecked","Uncheck the checkbox - IT Visibility if it is already checked 
+"

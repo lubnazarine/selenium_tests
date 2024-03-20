@@ -4,7 +4,6 @@ using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support.UI;
 
 
 namespace selenium_tests;
@@ -20,8 +19,8 @@ public class BaseClass
         options.AddArguments("--window-size=1024,768");
         options.AddArguments("--headless=new");
         options.AddArguments("--no-sandbox");
-
-        // options.AddArgument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36");
+        options.AddArguments("--ignore-certifcate-errors");
+        options.AddArgument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36");
         
         driver = new ChromeDriver(options);
         string url = "https://www.flexera.com/flexera-one/business-value-calculator";
@@ -30,8 +29,6 @@ public class BaseClass
         driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60);
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         driver.Navigate().GoToUrl(url);
-
-        
 
         VerifyBusinessValueCalculatorPageIsLaunched();
         RejectCookieAlert();
@@ -46,9 +43,6 @@ public class BaseClass
 
     public void RejectCookieAlert()
     {
-        
-        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
-        wait.Until(c => c.FindElement(By.Id("cookiescript_reject")));
         IWebElement cookieReject = driver.FindElement(By.Id("cookiescript_reject"));
         cookieReject.Click();
     }
@@ -58,8 +52,6 @@ public class BaseClass
         string actualTitle = driver.Title;
         string expectedTitle = "Technology ROI Calculator";
         Assert.That(actualTitle, Is.EqualTo(expectedTitle));
-        Console.WriteLine("******** inside title assertion ************");
-        
     }
     public void CloseBrowser()
     {

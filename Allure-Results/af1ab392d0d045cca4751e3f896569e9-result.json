@@ -1,0 +1,76 @@
+{
+  "uuid": "6c07fc1e-7d81-4e41-a91c-20d4660e5073",
+  "historyId": "986dbfcf8d54babaeaba933289bcc025",
+  "testCaseId": "2265f14d1c2e74683491ef76bff75ec6",
+  "fullName": "selenium_tests:selenium_tests.BusinessValueCalculatorTest.EnterHQ(System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AdminisatorsMBP"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "selenium_tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "EnterHQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BusinessValueCalculatorTest"
+    },
+    {
+      "name": "suite",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Business Value Calculator"
+    },
+    {
+      "name": "epic",
+      "value": "Flexera - Business Value Calculator"
+    }
+  ],
+  "links": [],
+  "name": "EnterHQ(\"France\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "EnterHQ(\"France\")"
+  },
+  "stage": "finished",
+  "description": "Select France from the Organisation Headquarters drop down list\n",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "161edd59-2e52-4644-a06a-8fc982f3a42e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "hq",
+      "value": "\"France\"",
+      "excluded": false
+    }
+  ],
+  "start": 1710930155181,
+  "stop": 1710930167751
+}
