@@ -26,13 +26,13 @@ Add the following dependencies from Nuget.org
 6. Selenium.WebDriver
 7. Selenium.WebDriver.ChromeDriver
 
-Build project:
+**Build project:**
 dotnet build
 
-Run tests:
+**Run tests:**
 dotnet test
 
-Generate allure report:
+**Generate allure report:**
 allure generate allure-results --clean -o allure-report
 allure open
 
