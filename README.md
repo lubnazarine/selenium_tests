@@ -34,5 +34,7 @@ dotnet test
 
 **Generate allure report:**
 allure generate allure-results --clean -o allure-report
+
+**Open report as html:**
 allure open
 
