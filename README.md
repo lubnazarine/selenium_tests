@@ -38,3 +38,9 @@ allure generate allure-results --clean -o allure-report
 **Open report as html:**
 allure open
 
+**Github implementations:**
+Main branch called test
+Code is in the test branch
+gh-pages is the branch where the CI reports are uploaded
+The workflow instructions is in the test_deploy.yml file
+everytime there is a new code pushed or edited on github it triggers the pipeline.
